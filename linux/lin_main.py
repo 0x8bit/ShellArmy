@@ -12,19 +12,19 @@ while True:
     if user_input == '1':
         while True:
             try:
-                from ShellArmy.linux import lin_defend
+                from linux import lin_defend
             except SystemExit:
                 break
     elif user_input == '2':
         while True:
             try:
-                from ShellArmy.linux import lin_respond
+                from linux import lin_respond
             except SystemExit:
                 break
     elif user_input == '3':
         while True:
             try:
-                from ShellArmy.linux import lin_analysis
+                from linux import lin_analysis
             except SystemExit:
                 break
     elif user_input in ['4', 'back', 'Back']:
