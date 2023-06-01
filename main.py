@@ -22,13 +22,13 @@ if __name__ == '__main__':
         if user_input == '1':
             while True:
                     try:
-                        from ShellArmy.linux import lin_main
+                        from linux import lin_main
                     except SystemExit:
                         break
         elif user_input == '2':
             while True:
                 try:
-                    from ShellArmy.windows import win_main
+                    from windows import win_main
                 except SystemExit:
                     break
         elif user_input in ['quit', 'Quit', '3', 'exit', 'Exit']:
